@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtuella miljöer
+venv/
+env/
+.venv/
+
+# Miljövariabler
+.env
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db
