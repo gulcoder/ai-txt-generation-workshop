@@ -6,10 +6,10 @@ __pycache__/
 venv/
 env/
 .venv/
-.env.example
 
 # Miljövariabler
 .env
+.env.example
 
 # OS-specifika filer
 .DS_Store
