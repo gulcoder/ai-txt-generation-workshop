@@ -46,24 +46,24 @@ Varje övning finns som en separat Python-fil: `övning1.py`, `övning2.py` osv.
 ## ⚙️ Installation & användning
 
 ```bash
-# 1. Klona repot
-git clone https://github.com/ditt-namn/ai-textgeneration-workshop.git
-cd ai-textgeneration-workshop
+1. Klona repot
+git clone https://github.com/gulcoder/ai-txt-generation-workshop.git
 
-# 2. Skapa och aktivera virtuellt Python-miljö
+2. Skapa och aktivera virtuellt Python-miljö
 python3 -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 
-# 3. Installera beroenden
+3. Installera beroenden
 pip install -r requirements.txt
 
-# 4. Lägg till din API-nyckel
+4. Lägg till din API-nyckel
 cp .env.example .env
 # Redigera .env och fyll i din OPENAI_API_KEY
 
-# 5. Kör en övning
+5. Kör en övning
 python övning1.py
+```
 
 
 
